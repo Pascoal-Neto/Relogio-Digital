@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Zen+Dots&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Zen Dots', sans-serif; 
+    
+       
+}
+body {
+    height: 100vh;
+    background-color: #141313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background-color: transparent;
+    border-radius: 3px;
+    
+    
+}
+
+.relogio div {
+    height:  170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    background-color: #0e0e0e;
+    box-shadow: 5px 5px 15px hsla(0, 7%, 24%, 0.702);
+    border-radius: 7px;
+    
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.relogio span.tempo {
+    font-size: 15px;
+}
+ 
